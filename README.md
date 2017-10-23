@@ -1,7 +1,7 @@
 Facebook TextField
 ==================
 
-Project source can be downloaded from https://github.com/dramonddaniel/facebook-textfield.github
+Project source can be downloaded from https://github.com/dramonddaniel/facebook-textfield.git
 ---
 
 Author & Contributors List:
