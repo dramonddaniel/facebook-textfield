@@ -11,11 +11,11 @@ Daniel Dramond
 Useage:
 -----------
 *In AppDelagate.swift*
-...
+'''
 window = UIWindow(frame: UIScreen.main.bounds)
 window?.makeKeyAndVisible()
 
 let viewController = VIEWCONTROLLERNAME()
 let navigationViewController = UINavigationController(rootViewController: viewController)
 window?.rootViewController = navigationViewController
-...
+'''
