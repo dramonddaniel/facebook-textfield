@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         guard let keyboardHeight: CGFloat = keyboardFrame?.height else { return }
         let height: CGFloat = keyboardHeight + 24 + 50 + 24
         
-        textFieldHeightConstraint?.constant = 186
+        textFieldHeightConstraint?.constant = containerHeight - 24
         textFieldCenterYConstraint?.isActive = false
         
         textFieldBottomConstraint?.isActive = true
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
     @objc func handleKeyboardWillHide(notification: NSNotification) {
         let keyboardDuration = notification.userInfo?[UIKeyboardAnimationDurationUserInfoKey]
         
-        textFieldHeightConstraint?.constant = 210
+        textFieldHeightConstraint?.constant = containerHeight
         textFieldCenterYConstraint?.isActive = true
         
         textFieldBottomConstraint?.isActive = false
@@ -160,6 +160,8 @@ class ViewController: UIViewController {
     var passwordTopConstraint: NSLayoutConstraint?
     var usernameTopConstraint: NSLayoutConstraint?
     
+    var containerHeight: CGFloat = 210
+    
     func setupViews() {
         view.addSubview(textfieldContainer)
         _ = textfieldContainer.anchor(nil, left: nil, bottom: nil, right: nil, topConstant: 0, leftConstant: 0, bottomConstant: 0, rightConstant: 0, widthConstant: view.frame.width * 0.8, heightConstant: 0)
@@ -167,7 +169,7 @@ class ViewController: UIViewController {
         textFieldBottomConstraint = textfieldContainer.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         textFieldBottomConstraint?.isActive = false
         
-        textFieldHeightConstraint = textfieldContainer.heightAnchor.constraint(equalToConstant: 210)
+        textFieldHeightConstraint = textfieldContainer.heightAnchor.constraint(equalToConstant: containerHeight)
         textFieldHeightConstraint?.isActive = true
         
         textfieldContainer.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
