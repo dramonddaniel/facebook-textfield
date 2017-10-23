@@ -14,6 +14,7 @@
 		22FE6DC21F9E28EF0011D222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FE6DC01F9E28EF0011D222 /* LaunchScreen.storyboard */; };
 		22FE6DCD1F9E28EF0011D222 /* TextFieldTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE6DCC1F9E28EF0011D222 /* TextFieldTutorialTests.swift */; };
 		22FE6DD81F9E28EF0011D222 /* TextFieldTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE6DD71F9E28EF0011D222 /* TextFieldTutorialUITests.swift */; };
+		22FE6DE61F9E2A1B0011D222 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE6DE51F9E2A1B0011D222 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		22FE6DD31F9E28EF0011D222 /* TextFieldTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FE6DD71F9E28EF0011D222 /* TextFieldTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTutorialUITests.swift; sourceTree = "<group>"; };
 		22FE6DD91F9E28EF0011D222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FE6DE51F9E2A1B0011D222 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				22FE6DB71F9E28EF0011D222 /* AppDelegate.swift */,
 				22FE6DB91F9E28EF0011D222 /* ViewController.swift */,
+				22FE6DE51F9E2A1B0011D222 /* Extensions.swift */,
 				22FE6DBB1F9E28EF0011D222 /* Main.storyboard */,
 				22FE6DBE1F9E28EF0011D222 /* Assets.xcassets */,
 				22FE6DC01F9E28EF0011D222 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22FE6DBA1F9E28EF0011D222 /* ViewController.swift in Sources */,
+				22FE6DE61F9E2A1B0011D222 /* Extensions.swift in Sources */,
 				22FE6DB81F9E28EF0011D222 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
