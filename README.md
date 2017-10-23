@@ -20,3 +20,7 @@ let navigationViewController = UINavigationController(rootViewController: viewCo
 window?.rootViewController = navigationViewController
 ```
 <div style="text-align:center"><img src ="https://user-images.githubusercontent.com/19694636/31903404-e34749fc-b81f-11e7-9c53-1886106425aa.gif"><img src ="https://user-images.githubusercontent.com/19694636/31903455-0deabd6a-b820-11e7-9177-d0f74a8e3bbf.gif"></div>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/19694636/31903455-0deabd6a-b820-11e7-9177-d0f74a8e3bbf.gif">
+</p>
